@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42732901FC5E72B00623786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427328F1FC5E72B00623786 /* AppDelegate.swift */; };
+		C42732921FC5E72B00623786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42732911FC5E72B00623786 /* ViewController.swift */; };
+		C42732951FC5E72B00623786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42732931FC5E72B00623786 /* Main.storyboard */; };
+		C42732971FC5E72B00623786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42732961FC5E72B00623786 /* Assets.xcassets */; };
+		C427329A1FC5E72B00623786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42732981FC5E72B00623786 /* LaunchScreen.storyboard */; };
+		C42732A71FC5E75E00623786 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42732A51FC5E75E00623786 /* Interface.storyboard */; };
+		C42732A91FC5E75E00623786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42732A81FC5E75E00623786 /* Assets.xcassets */; };
+		C42732B01FC5E75E00623786 /* AnimalsWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C42732AF1FC5E75E00623786 /* AnimalsWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C42732B51FC5E75E00623786 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42732B41FC5E75E00623786 /* InterfaceController.swift */; };
+		C42732B71FC5E75E00623786 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42732B61FC5E75E00623786 /* ExtensionDelegate.swift */; };
+		C42732B91FC5E75E00623786 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42732B81FC5E75E00623786 /* NotificationController.swift */; };
+		C42732BB1FC5E75E00623786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42732BA1FC5E75E00623786 /* Assets.xcassets */; };
+		C42732C01FC5E75E00623786 /* AnimalsWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C42732A31FC5E75D00623786 /* AnimalsWatch.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42732B11FC5E75E00623786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42732841FC5E72B00623786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42732AE1FC5E75E00623786;
+			remoteInfo = "AnimalsWatch Extension";
+		};
+		C42732BE1FC5E75E00623786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42732841FC5E72B00623786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42732A21FC5E75D00623786;
+			remoteInfo = AnimalsWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C42732C41FC5E75E00623786 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C42732B01FC5E75E00623786 /* AnimalsWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42732C81FC5E75E00623786 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C42732C01FC5E75E00623786 /* AnimalsWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C427328C1FC5E72B00623786 /* Animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C427328F1FC5E72B00623786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C42732911FC5E72B00623786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C42732941FC5E72B00623786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C42732961FC5E72B00623786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C42732991FC5E72B00623786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C427329B1FC5E72B00623786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42732A31FC5E75D00623786 /* AnimalsWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42732A61FC5E75E00623786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C42732A81FC5E75E00623786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C42732AA1FC5E75E00623786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42732AF1FC5E75E00623786 /* AnimalsWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AnimalsWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42732B41FC5E75E00623786 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C42732B61FC5E75E00623786 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C42732B81FC5E75E00623786 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C42732BA1FC5E75E00623786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C42732BC1FC5E75E00623786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42732BD1FC5E75E00623786 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42732891FC5E72B00623786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42732AC1FC5E75E00623786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42732831FC5E72B00623786 = {
+			isa = PBXGroup;
+			children = (
+				C427328E1FC5E72B00623786 /* Animals */,
+				C42732A41FC5E75E00623786 /* AnimalsWatch */,
+				C42732B31FC5E75E00623786 /* AnimalsWatch Extension */,
+				C427328D1FC5E72B00623786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C427328D1FC5E72B00623786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C427328C1FC5E72B00623786 /* Animals.app */,
+				C42732A31FC5E75D00623786 /* AnimalsWatch.app */,
+				C42732AF1FC5E75E00623786 /* AnimalsWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C427328E1FC5E72B00623786 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				C427328F1FC5E72B00623786 /* AppDelegate.swift */,
+				C42732911FC5E72B00623786 /* ViewController.swift */,
+				C42732931FC5E72B00623786 /* Main.storyboard */,
+				C42732961FC5E72B00623786 /* Assets.xcassets */,
+				C42732981FC5E72B00623786 /* LaunchScreen.storyboard */,
+				C427329B1FC5E72B00623786 /* Info.plist */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		C42732A41FC5E75E00623786 /* AnimalsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C42732A51FC5E75E00623786 /* Interface.storyboard */,
+				C42732A81FC5E75E00623786 /* Assets.xcassets */,
+				C42732AA1FC5E75E00623786 /* Info.plist */,
+			);
+			path = AnimalsWatch;
+			sourceTree = "<group>";
+		};
+		C42732B31FC5E75E00623786 /* AnimalsWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C42732B41FC5E75E00623786 /* InterfaceController.swift */,
+				C42732B61FC5E75E00623786 /* ExtensionDelegate.swift */,
+				C42732B81FC5E75E00623786 /* NotificationController.swift */,
+				C42732BA1FC5E75E00623786 /* Assets.xcassets */,
+				C42732BC1FC5E75E00623786 /* Info.plist */,
+				C42732BD1FC5E75E00623786 /* PushNotificationPayload.apns */,
+			);
+			path = "AnimalsWatch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C427328B1FC5E72B00623786 /* Animals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C427329E1FC5E72B00623786 /* Build configuration list for PBXNativeTarget "Animals" */;
+			buildPhases = (
+				C42732881FC5E72B00623786 /* Sources */,
+				C42732891FC5E72B00623786 /* Frameworks */,
+				C427328A1FC5E72B00623786 /* Resources */,
+				C42732C81FC5E75E00623786 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42732BF1FC5E75E00623786 /* PBXTargetDependency */,
+			);
+			name = Animals;
+			productName = Animals;
+			productReference = C427328C1FC5E72B00623786 /* Animals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42732A21FC5E75D00623786 /* AnimalsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42732C51FC5E75E00623786 /* Build configuration list for PBXNativeTarget "AnimalsWatch" */;
+			buildPhases = (
+				C42732A11FC5E75D00623786 /* Resources */,
+				C42732C41FC5E75E00623786 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42732B21FC5E75E00623786 /* PBXTargetDependency */,
+			);
+			name = AnimalsWatch;
+			productName = AnimalsWatch;
+			productReference = C42732A31FC5E75D00623786 /* AnimalsWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C42732AE1FC5E75E00623786 /* AnimalsWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42732C11FC5E75E00623786 /* Build configuration list for PBXNativeTarget "AnimalsWatch Extension" */;
+			buildPhases = (
+				C42732AB1FC5E75E00623786 /* Sources */,
+				C42732AC1FC5E75E00623786 /* Frameworks */,
+				C42732AD1FC5E75E00623786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnimalsWatch Extension";
+			productName = "AnimalsWatch Extension";
+			productReference = C42732AF1FC5E75E00623786 /* AnimalsWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42732841FC5E72B00623786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Djuro Alfirevic";
+				TargetAttributes = {
+					C427328B1FC5E72B00623786 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C42732A21FC5E75D00623786 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C42732AE1FC5E75E00623786 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C42732871FC5E72B00623786 /* Build configuration list for PBXProject "Animals" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42732831FC5E72B00623786;
+			productRefGroup = C427328D1FC5E72B00623786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C427328B1FC5E72B00623786 /* Animals */,
+				C42732A21FC5E75D00623786 /* AnimalsWatch */,
+				C42732AE1FC5E75E00623786 /* AnimalsWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C427328A1FC5E72B00623786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C427329A1FC5E72B00623786 /* LaunchScreen.storyboard in Resources */,
+				C42732971FC5E72B00623786 /* Assets.xcassets in Resources */,
+				C42732951FC5E72B00623786 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42732A11FC5E75D00623786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42732A91FC5E75E00623786 /* Assets.xcassets in Resources */,
+				C42732A71FC5E75E00623786 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42732AD1FC5E75E00623786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42732BB1FC5E75E00623786 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42732881FC5E72B00623786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42732921FC5E72B00623786 /* ViewController.swift in Sources */,
+				C42732901FC5E72B00623786 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42732AB1FC5E75E00623786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42732B91FC5E75E00623786 /* NotificationController.swift in Sources */,
+				C42732B71FC5E75E00623786 /* ExtensionDelegate.swift in Sources */,
+				C42732B51FC5E75E00623786 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42732B21FC5E75E00623786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42732AE1FC5E75E00623786 /* AnimalsWatch Extension */;
+			targetProxy = C42732B11FC5E75E00623786 /* PBXContainerItemProxy */;
+		};
+		C42732BF1FC5E75E00623786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42732A21FC5E75D00623786 /* AnimalsWatch */;
+			targetProxy = C42732BE1FC5E75E00623786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C42732931FC5E72B00623786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42732941FC5E72B00623786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C42732981FC5E72B00623786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42732991FC5E72B00623786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C42732A51FC5E75E00623786 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42732A61FC5E75E00623786 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C427329C1FC5E72B00623786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C427329D1FC5E72B00623786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C427329F1FC5E72B00623786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Animals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.djuroalfirevic.Animals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C42732A01FC5E72B00623786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Animals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.djuroalfirevic.Animals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C42732C21FC5E75E00623786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AnimalsWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.djuroalfirevic.Animals.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		C42732C31FC5E75E00623786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AnimalsWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.djuroalfirevic.Animals.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		C42732C61FC5E75E00623786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = AnimalsWatch_Extension;
+				INFOPLIST_FILE = AnimalsWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djuroalfirevic.Animals.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		C42732C71FC5E75E00623786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = AnimalsWatch_Extension;
+				INFOPLIST_FILE = AnimalsWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djuroalfirevic.Animals.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42732871FC5E72B00623786 /* Build configuration list for PBXProject "Animals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C427329C1FC5E72B00623786 /* Debug */,
+				C427329D1FC5E72B00623786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C427329E1FC5E72B00623786 /* Build configuration list for PBXNativeTarget "Animals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C427329F1FC5E72B00623786 /* Debug */,
+				C42732A01FC5E72B00623786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42732C11FC5E75E00623786 /* Build configuration list for PBXNativeTarget "AnimalsWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42732C21FC5E75E00623786 /* Debug */,
+				C42732C31FC5E75E00623786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42732C51FC5E75E00623786 /* Build configuration list for PBXNativeTarget "AnimalsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42732C61FC5E75E00623786 /* Debug */,
+				C42732C71FC5E75E00623786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42732841FC5E72B00623786 /* Project object */;
+}
